@@ -1,0 +1,139 @@
+.small-column {
+    width: 150px;
+}
+
+.button-column {
+    width: 69px;
+}
+
+.invoice-footer-table {
+    td {
+        padding: 0px 5px !important;
+    }
+
+    .footer-input {
+        width: 300px;
+    }
+
+    .footer-numbers {
+        min-width: 100px;
+    }
+
+    .footer-tax-numbers {
+        width: 100px;
+    }
+}
+
+.sub-total, .adjustment-numbers, .footer-tax-numbers, .footer-discount-numbers, .total-numbers {
+    &:before {
+        font-size: 12px;
+        font-weight: 900;
+        margin-right: 2px;
+    }
+}
+
+.clientnote-textarea, .terms-textarea, .billingShippingTextarea {
+    height: 100px !important;
+}
+
+.modal-backdrop {
+    display: none !important;
+}
+
+.medium-column {
+    width: 200px;
+}
+
+.invoice-footer {
+    table tbody td {
+        padding-top: 5px !important;
+        padding-bottom: 5px !important;
+        height: 35px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .overflow-section {
+        overflow: auto !important;
+    }
+    .item-name {
+        min-width: 30vh;
+    }
+
+    .item-description {
+        min-width: 45vh;
+    }
+
+    .qty {
+        min-width: 15vh;
+    }
+
+    .rate {
+        min-width: 20vh;
+    }
+
+    .tax-rates + .select2-container {
+        min-width: 30vh;
+    }
+
+    .item-amount-width {
+        min-width: 20vh;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .overflow-section {
+        overflow: hidden !important;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .addressModalIcon {
+        display: block;
+    }
+    #bill_to {
+        margin-left: 0 !important;
+    }
+    .showQuantityAs {
+        display: inline-grid !important;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .addressModalIcon {
+        display: block;
+    }
+    #bill_to {
+        margin-left: 0 !important;
+    }
+}
+
+.status-cancelled {
+    color: #fff;
+    background-color: #e3342f;
+    border-color: #e3342f;
+}
+
+.status-drafted {
+    color: #fff;
+    background-color: #ffa426;
+    border-color: #ffa426;
+}
+
+.status-unpaid {
+    color: #fff;
+    background-color: #6777ef;
+    border-color: #6777ef;
+}
+
+.status-partially-paid {
+    color: #fff;
+    background-color: #3abaf4;
+    border-color: #3abaf4;
+}
+
+.status-paid {
+    color: #fff;
+    background-color: #38c172;
+    border-color: #38c172;
+}

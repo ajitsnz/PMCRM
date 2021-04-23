@@ -1,0 +1,189 @@
+// customer livewire css here
+.hover-effect-users {
+    transition-duration: 1s;
+    box-shadow: 0 8px 30px 0 rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 90%;
+}
+
+.users-border {
+    border-radius: 15px;
+}
+
+.hover-effect-users:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+    opacity: 1;
+}
+
+.users-card-hover-border:hover {
+    border: 1px solid #6777ef;
+}
+
+.users-listing-details {
+    box-shadow: none;
+    padding: 10px 0;
+    flex: auto;
+}
+
+.users-listing-details {
+    display: flex;
+    flex-wrap: wrap;
+    line-break: anywhere;
+    align-items: flex-start;
+    padding-top: 5px !important;
+}
+
+@media screen and (max-width: 425px) {
+    .users-listing-details {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 54px !important;
+        line-break: anywhere;
+        align-items: flex-start;
+    }
+}
+
+img.users-avatar-img.users-img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    overflow: hidden;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.users-listing-description {
+    padding-top: 0;
+    flex: 1;
+}
+
+.users-data {
+    line-height: 30px !important;
+    margin-left: 10px;
+}
+
+.users-data .customer-email {
+    color: gray;
+}
+
+.users-listing-title {
+    font-size: 1.1rem;
+    color: black;
+    margin-bottom: 3px;
+    font-weight: 200 !important;
+}
+
+a.users-listing-title:hover {
+    color: #000000 !important;
+}
+
+.assigned-user {
+    bottom: 15px;
+}
+
+.assigned-user-badge {
+    height: 25px;
+    width: 25px;
+    padding-top: 6px !important;
+    padding-right: inherit !important;
+    padding-left: inherit !important;
+}
+
+.role-badge {
+    width: 90px;
+    color: #2643e9 !important;
+    background-color: #eaecfb !important;
+}
+
+.users-edit {
+    visibility: hidden;
+}
+
+.users-delete {
+    visibility: hidden;
+}
+
+.hover-effect-users:hover a.users-edit {
+    visibility: visible;
+}
+
+.hover-effect-users:hover a.users-delete {
+    visibility: visible;
+}
+
+.users-action-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.users-action-btn .users-delete {
+    right: 10px;
+    bottom: 10px;
+    color: red !important;
+    background-color: white !important;
+    border: none;
+    box-shadow: 0 2px 6px white !important;
+    font-size: 15px;
+}
+
+.users-action-btn .users-edit {
+    right: 35px;
+    bottom: 10px;
+    color: #ffa426 !important;
+    background-color: white !important;
+    border: none;
+    box-shadow: 0 2px 6px white;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 425px) {
+    .users-avatar {
+        transform: translateY(-45px);
+        -webkit-transform: translateY(-45px);
+        -moz-transform: translateY(-45px);
+        -o-transform: translateY(-45px);
+        background: #ffffff;
+    }
+
+    .users-avatar img {
+        margin-right: 0 !important;
+    }
+
+    .favorite-company-data {
+        margin-top: 7px !important;
+    }
+
+    .users-data {
+        margin-top: -40px;
+        font-size: 0.85rem !important;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+    .users-card .col-xl-4 {
+        max-width: 20%;
+    }
+}
+
+.users-role {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+}
+
+.users-listing-details::after {
+    display: none;
+}
+
+.customer-dashboard-ticket-search {
+    height: 35px !important;
+    margin-right: 15px !important;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .users-card .col-xl-4 {
+        max-width: 33.33%;
+    }
+}

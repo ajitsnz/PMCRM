@@ -1,0 +1,40 @@
+.hover-effect-lead {
+    transition-duration: 700ms;
+    height: 210px;
+    
+    @media screen and (width: 320px) and (height: 568px){
+        height: 230px;
+    }
+}
+
+.hover-effect-lead:hover {
+    transform: translateY(-5px);
+    opacity: 1.0;
+}
+
+.lead-card-name{
+  width: 300px;
+    @media screen and (max-width: 1440px){
+        width: 250px;
+    }
+}
+
+.text-grey {
+    color: #6c757d;
+}
+
+.line-height-20px {
+    line-height: 20px;
+}
+
+.lead-avatar-image {
+    width: 35px;
+    height: 35px;
+    -o-object-fit: cover !important;
+    object-fit: cover !important;
+}
+
+.lead-card-height {
+    max-height: 180px;
+    height: 100%;
+}

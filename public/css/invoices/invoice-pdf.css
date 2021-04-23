@@ -1,0 +1,137 @@
+body {
+    font-family: 'sans-serif';
+}
+
+.text-color {
+    color: #fc544b;
+}
+
+.pdf-css {
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.main-table {
+    vertical-align: top;
+    width: 100%;
+}
+
+.invoice-customer-detail {
+    vertical-align: top;
+}
+
+.invoice-date-table {
+    width: 100%;
+    text-align: right;
+}
+
+.invoice-date-table table {
+
+}
+
+.invoice-number, .app-logo {
+    width: 50%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.m-0 {
+    margin: 0;
+}
+
+.font-weight-bold {
+    font-weight: bold;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.thead-light {
+    background: #f8f9fa;
+}
+
+.invoice-sales-items th, .invoice-sales-items td {
+    padding: 5px 10px;
+    border: 1px solid #dee2e6;
+    min-width: 20vh;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.mb-2 {
+    margin-bottom: 16px;
+}
+
+.text-muted {
+    color: #6c757d;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.invoice-footer-table {
+    width: 100%;
+}
+
+.invoice-footer-table td {
+    border-bottom: 1px solid #dee2e6;
+    padding: 5px 0;
+}
+
+.mt-2 {
+    margin-top: 16px;
+}
+
+.payments-table {
+    width: 100%;
+}
+
+.payments-table thead {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.payments-table td {
+    padding: 5px 10px;
+}
+
+.font-weight-normal {
+    font-weight: 400 !important;
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.badge-secondary {
+    color: #fff;
+    background-color: #6c757d;
+}
+
+.table-data {
+    width: 300px;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.invoice-sales-items .rate {
+    width: 100px;
+}
+
+.invoice-sales-items .total-amount {
+    width: 110px;
+}

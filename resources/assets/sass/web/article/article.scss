@@ -1,0 +1,57 @@
+.article-navbar {
+    height: 70px !important;
+}
+
+.sidebar {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.sidebar .widget {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+}
+
+.sidebar .widget-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1a191a;
+    margin-bottom: 20px;
+}
+
+.search {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.groups li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.search .btn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0;
+    background: none;
+    font-size: 15px;
+}
+
+.web-content {
+    padding-top: 125px !important;
+}
+
+.header-article {
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0) !important;
+    background-color: #f4f6f9 !important;
+}
+
+.no-articles {
+    margin: 150px 0 0 300px;
+    font-size: 25px;
+}

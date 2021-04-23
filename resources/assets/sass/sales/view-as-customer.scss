@@ -1,0 +1,52 @@
+.itemRate {
+    min-width: 20vh !important;
+}
+
+.itemTotal {
+    min-width: 25vh !important;
+}
+
+.itemTax {
+    min-width: 20vh !important;
+}
+
+.amountData {
+    min-width: 23vh !important;
+}
+
+.w-23 {
+    min-width: 23vh !important;
+}
+
+@media screen and (max-width: 425px) {
+    .invoice-date {
+        float: left !important;
+    }
+    .invoice-addresses {
+        text-align: left !important;
+        margin-right: 2em;
+    }
+    .download-btn {
+        text-align: end !important;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .invoice-date {
+        float: left !important;
+    }
+    .invoice-addresses {
+        text-align: left !important;
+        margin-right: 2em;
+    }
+    .creditNoteDetail, .estimateDetail {
+        text-align: left !important;
+        margin-right: 3em;
+    }
+}
+
+.table-data {
+    width: 300px;
+    word-break: break-all;
+    word-wrap: break-word;
+}

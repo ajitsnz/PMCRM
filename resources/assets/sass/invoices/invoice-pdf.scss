@@ -1,0 +1,26 @@
+body {
+    font-family: "Lato", sans-serif;
+    padding: 30px;
+    font-size: 14px;
+}
+
+.font-color-gray {
+    color: #7a7a7a;
+}
+
+.main-table {
+    vertical-align: top;
+    width: 100%;
+}
+
+.invoice-customer-detail {
+    vertical-align: top;
+}
+
+.invoice-date-table {
+    float: right;
+
+    table {
+        text-align: right;
+    }
+} 

@@ -1,0 +1,71 @@
+.hover-effect-goal {
+    transition-duration: 700ms;
+    height: 180px;
+    
+    @media screen and (max-width: 360px){
+        height: 230px;
+    }
+    @media screen and (width: 320px) and (height: 568px){
+        height: 235px;
+    }
+    @media screen and (min-width: 411px) and (max-width: 1024px){
+        height: 200px;
+    }
+    @media screen and (min-width: 1024px) and (max-width: 1440px){
+        height: 230px;
+    }
+}
+
+.hover-effect-goal:hover {
+    transform: translateY(-5px);
+    opacity: 1.0;
+}
+
+.goal-card-name{
+  width: 300px;
+    @media screen and (max-width: 1440px){
+        width: 250px;
+    }
+}
+
+.text-grey{
+    color: #6c757d;
+}
+
+.line-height-20px{
+    line-height: 20px;
+}
+
+.goal-avatar-image{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin-right: 3px;
+    border-radius: 25px;
+    margin-top: 3px;
+}
+
+
+.goal_remaining_user {
+    padding-top: 1px;
+    height: 32px;
+    width: 32px;
+    background-color: #bbb;
+    border-radius: 50em;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    text-align: center;
+    color: #060606;
+}
+
+.goal-progress-width-text {
+    width: 100% !important;
+    position: absolute !important;
+    line-height: 16px !important;
+}
+
+.goal-progress {
+    text-align: center !important;
+    position: relative !important;
+}

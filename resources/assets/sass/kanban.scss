@@ -1,0 +1,114 @@
+.avatar-container {
+    position: relative;
+
+    .dropdown {
+        display: inline-block;
+
+        .more-avatar {
+            text-align: center;
+            padding: 5px 0;
+            background: #f0f0f0;
+            color: #6777ef !important;
+        }
+
+        .dropdown-item {
+            padding: 5px 10px;
+        }
+    }
+}
+
+.board [class^="board-"] {
+    min-height: 50px;
+    position: relative;
+    max-height: 65vh;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        width: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #777777;
+        border-radius: 2px;
+    }
+
+    .avatar-container .avatar-sm {
+        border: 1px solid #fff;
+        position: relative;
+        transition: .3s;
+
+        &:not(:first-child) {
+            margin-left: -18px;
+        }
+
+        &:hover {
+            z-index: 99;
+            transform: scale(1.1);
+        }
+    }
+
+    .task-details {
+        text-decoration: none;
+        color: #3f4348;
+        margin-bottom: 10px !important;
+        display: block;
+        padding-right: 25px;
+    }
+
+    .card {
+        box-shadow: 0 5px 5px -5px rgba(0, 0, 0, 0.1);
+    }
+}
+
+#taskId {
+    opacity: 0;
+    max-height: 1px;
+    max-width: 1px;
+}
+
+#taskDetails .infy-loader {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+
+    &.overlay-screen-lock {
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.board-container {
+    max-height: 65vh !important;
+
+    &::-webkit-scrollbar {
+        height: 4px;
+        width: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: #777777;
+        border-radius: 2px;
+    }
+
+    @media screen and (max-height: 900px) {
+        max-height: 70vh;
+    }
+}
+
+.kanban-header {
+    .user-drp-container {
+        min-width: 170px;
+    }
+
+    .project-drp-container {
+        min-width: 170px;
+    }
+
+    .form-btn {
+        margin-top: 30px;
+    }
+}
+
+.tooltip-inner {
+    padding: 2px 5px !important;
+}

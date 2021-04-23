@@ -1,0 +1,65 @@
+.card {
+    .card-header {
+        border-bottom-color: #f9f9f9;
+        line-height: 30px;
+        align-self: center;
+        width: 100%;
+        min-height: 70px;
+        background-color: transparent;
+    }
+}
+
+.dropdown-menu {
+    box-shadow: 0 10px 40px 0 rgb(51 73 94 / 15%);
+    //border: none;
+    width: 200px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+}
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
+}
+
+.d-inline-block {
+    display: inline-block !important;
+}
+
+.projectUserAvatar {
+    width: 32px;
+    height: 32px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-right: 3px;
+    border-radius: 25px;
+    margin-top: 3px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+    .project-card-status {
+        width: 100%;
+    }
+}
+
+.project-card-height {
+    min-height: 155px !important;
+}
+
+.project-deadline{
+    margin-right: 66px !important;
+}
