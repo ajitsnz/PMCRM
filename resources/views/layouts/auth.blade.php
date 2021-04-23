@@ -22,7 +22,7 @@
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <div class="login-brand">
-                        <img src="{{ asset('assets/img/logo.png') }}" alt="logo" width="100"
+                        <img src="{{ asset('assets/img/infyom-logo.png') }}" alt="logo" width="100"
                              class="shadow-light">
                     </div>
                     @yield('content')
