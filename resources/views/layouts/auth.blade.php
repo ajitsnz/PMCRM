@@ -22,8 +22,8 @@
             <div class="row">
                 <div class="col-md-6 offset-md-3">
                     <div class="login-brand">
-                        <img src="{{ asset('assets/img/logo.png') }}" alt="Automation" width="100"
-                             class="shadow-light">
+                        <h1><img src="{{ asset('assets/img/logo.png') }}" alt="Automation" width="100"
+                             class="shadow-light"></h1>
                     </div>
                     @yield('content')
                     <div class="simple-footer">
